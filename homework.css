@@ -1,13 +1,10 @@
-<style>
-
+		body {margin: 0; padding: 0}
 		
-		body {margin: 0; overflow-y: scroll; overflow-x: none;}
-
 		.call-to-action-form {position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 400px; height: 550px; background-color: #DCDCDC; /*box-shadow: 0 0 2px 0px black;*/ z-index: 10; display: none;}
 
-		
-		
 		button {outline: none;}
+
+				
 
 			.flex {display: flex; justify-content: space-between;}
 			.fixed-conteiner {max-width: 1170px; margin: 0 auto; padding-left: 35px; padding-right: 35px;}
@@ -43,7 +40,7 @@
 
 		@media (max-width: 1024px) {
 				
-				body {max-width: 1024px;}
+				body {max-width: 1920px; margin: 0;}
 					.flex {flex-wrap: wrap;}
 					.call-to-action-button_red button {width: 320px; height: 68px; }
 					.block__name-font {font-size: 54px; line-height: 59px;}
@@ -76,7 +73,7 @@
 
 				.nav-conteiner2 {}
 					.nav__contact-tel {font-family: Roboto; font-size: 25px; line-height: 45px; font-weight: 700; color: #1f1f24; margin-right: 40px;}
-					.nav__backcall-button button {font-family: Roboto; font-size: 16px; line-height: 43px; font-weight: 400; color: #f53f4f; padding: 10px auto; text-align: center; margin-right: auto; margin-left: auto; width: 210px; border: 1.0px solid #f82370; height: 45px; background-color: transparent; cursor: pointer; outline: none;}
+					.nav__backcall-button button {font-family: Roboto; font-size: 16px; line-height: 43px; font-weight: 400; color: #f53f4f; text-align: center; margin-right: auto; margin-left: auto; width: 210px; border: 1.0px solid #f82370; height: 45px; background-color: transparent; cursor: pointer; outline: none;}
 					.nav__backcall-button-mob {width: 26px; height: 100%; display: none;}
 					.nav__backcall-button-mob button {width: 100%; height: 100%; border: 0; background-color: transparent; background-image: url('img/backcall_mob.png'); background-repeat: no-repeat; background-position: center center; background-size: contain;}
 				
@@ -114,8 +111,7 @@
 
 			.flying-symbols__conteiner > div {position: absolute; background: linear-gradient(#f26522 0%, #fa0891 100%); -webkit-background-clip: text; color: transparent; /*transition: all 2s;*/}
 				.flying-symbols__item1 {left: 125px; top: 6.5%; font-family: Roboto; font-size: 48.8px; line-height: 43px; font-weight: 700; transform: rotate(20deg);}
-				.flying-symbols__item1:hover {left: 200px; top: 10%; transition-duration: 1000;}
-				.flying-symbols__item2 {left: 5%; top: 43%; font-family: Roboto; font-size: 57.2px; line-height: 51px;font-weight: 700; color: #6055c4; transform: rotate(20deg);}
+				.flying-symbols__item1:hover {left: 200px; top: 10%; transition-duration: 1s}
 				.flying-symbols__item3 {left: 375px; bottom: 50px; font-family: Roboto; font-size: 40.8px; line-height: 36px;font-weight: 700;color: #6055c4; transform: rotate(-20deg);}
 				.flying-symbols__item4 {left: 41%; top: 85px; font-family: Roboto; font-size: 29.9px; line-height: 26px;font-weight: 700; color: #6055c4; transform: rotate(-10deg);}
 				.flying-symbols__item5 {left: 50%; bottom: 175px; font-family: Roboto; font-size: 37.6px; line-height: 33px;font-weight: 700; color: #6055c4; transform: rotate(25deg);}
@@ -358,6 +354,3 @@
 					.footer__bottom-font {font-size: 12px; line-height: 59px;}
 					.footer__bottom {padding: 0;}
 					}
-		
-
-	</style>
